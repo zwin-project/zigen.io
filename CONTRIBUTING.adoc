@@ -1,0 +1,61 @@
+= Contributing to zigen.io
+
+Thank you for considering contributing to zigen.io!!!
+
+Please feel free to ask us any questions in our discord server!
+
+image:https://badgen.net/discord/members/PPJEFrdE9f?scale=1.2&icon=discord&label=Join%20our%20discord%20server%21%21%21[link=https://discord.gg/PPJEFrdE9f]
+
+== Creating a pull request
+
+To contribute to this repository with your code, you will fork
+https://github.com/zigen-project/zigen.io[this repository], push your changes to
+a branch in your fork, and then create a pull request from that branch to
+the `main` branch of this repository.
+
+We will arrange `help wanted issues` and `good first issues` soon so that
+you can find some good issues for your first pull request.
+
+== Creating an issue
+
+If you find a problem or want to request a new feature, please
+create an issue in https://github.com/zigen-project/zigen.io[this repository].
+
+== Building
+
+. Install the necessary development tools.
+
+* https://nodejs.org/[NodeJS]: version 16.14.2 LTS is recommended.
+* https://yarnpkg.com/[yarn]
+
+. Install packages
+
++
+[source,shell]
+----
+yarn install
+----
+
+. To launch a development server, run the following command.
+
++
+[source,shell]
+----
+yarn dev
+----
+
+. Open http://localhost:3000
+
+zigen.io uses Next.js. Please see the https://nextjs.org/[Next.js website] for details.
+
+== Linter
+
+This project uses https://eslint.org/[eslint] and https://prettier.io/[prettier]
+for linting. Please check your code by
+
+[source,shell]
+----
+yarn lint
+----
+
+We recommend to use some editor plug-ins for linting if exists.

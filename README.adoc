@@ -1,0 +1,12 @@
+== zigen.io
+
+A website for the ZIGEN windowing system.
+
+=== Contributing
+
+If you're intersected in contributing, please see our
+link:./CONTRIBUTING.adoc[contributing guideline]
+
+=== License
+
+Licensed under the link:./LICENSE[MIT License]
