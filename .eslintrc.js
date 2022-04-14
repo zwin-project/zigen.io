@@ -13,5 +13,12 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier': ['error'],
+    'no-restricted-imports': [
+      'error',
+      {
+        patterns: ['@mui/material/*'],
+        paths: ['@mui/icons-material'],
+      },
+    ],
   },
 }
