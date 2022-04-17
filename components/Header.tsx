@@ -8,6 +8,7 @@ import {
   useTheme,
 } from '@mui/material'
 import GitHubIcon from '@mui/icons-material/GitHub'
+import TwitterIcon from '@mui/icons-material/Twitter'
 import Image from 'next/image'
 import Logo from './Logo'
 
@@ -39,6 +40,17 @@ const Header = () => {
               size="large"
             >
               <Image layout="fill" src="/discord-white.svg" alt="discord" />
+            </IconButton>
+          </Tooltip>
+          <Tooltip title="Follow our Twitter!!">
+            <IconButton
+              href="https://twitter.com/zigen_project"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mx-2"
+              size="large"
+            >
+              <TwitterIcon htmlColor={theme.palette.background.default} />
             </IconButton>
           </Tooltip>
         </Toolbar>
